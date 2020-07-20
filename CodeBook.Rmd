@@ -1,0 +1,35 @@
+---
+title: "CodeBook"
+author: "Hnin Su PHYU"
+date: "7/19/2020"
+output: pdf_document
+---
+
+CodeBook
+
+## code book for the project
+
+##How to get to the tinyData.txt:
+
+1.Download data from the link below and unzip it into working directory of R Studio.
+2.Execute the R script.
+
+#About the source data
+
+The source data are from the Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+## R code "run_analysis.R" performs the  following steps 
+1.Test data set
+2.Train data set
+3.Features data set
+4.Activity labels data set
+
+-Reading training tables - xtrain / ytrain, subject train
+-Tagging the test and train data sets
+-To merge the test and train data 
+-Extracting only the measurements on the mean and standard deviation for each measurement
+-Use descriptive activity names to name the activities in the data set
+-Independent tidy data set with the average of each variable for each activity and each subject
+-New tidy set has to be created
+-Save the new dataset
+
